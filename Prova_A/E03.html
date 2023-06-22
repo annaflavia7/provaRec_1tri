@@ -3,8 +3,11 @@
     //Elaborar um programa que leia a duração de uma viagem em dias e horas. Calcule e informe a duração total da viagem em número de horas.
 
     //ENTRADA
+    const viajem = Number(prompt(`Quantos dias vai durar a sua viajem?`.trim()))
+    const horas = Number(prompt(`Quantas horas vai durar a sua viajem?`.trim()))
 
-
+    const resultado = (viajem * 24) + horas
+    alert(`A viajem durou ${resultado}`)
     //PROCESSAMENTO
     
 
